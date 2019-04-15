@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DJunCategoryKit'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of DJunCategoryKit.'
 
 # This description is used to generate tags and improve search results.
@@ -32,28 +32,24 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'DJunCategoryKit/Classes/**/*'
   
-  s.subspec 'Api' do |ss|
-      ss.source_files = 'DJunCategoryKit/Classes/Api/*.{h,m}'
-  end
   s.subspec 'ViewModel' do |ss|
       ss.source_files = 'DJunCategoryKit/Classes/ViewModel/*.{h,m}'
-      ss.dependency 'ReactiveObjC'
+      #ss.dependency 'ReactiveObjC'
   end
   
   s.subspec 'View' do |ss|
       ss.source_files = 'DJunCategoryKit/Classes/View/*.{h,m}'
-      # ss.dependency 'DJunCategoryKit/Api'
-      # ss.dependency 'DJunCategoryKit/ViewModel'
+      ss.dependency 'DJunCategoryKit/ViewModel'
   end
 
   s.subspec 'ViewController' do |ss|
       ss.source_files = 'DJunCategoryKit/Classes/ViewController/*.{h,m}'
-      #ss.dependency 'DJunCategoryKit/View'
+      ss.dependency 'DJunCategoryKit/View'
   end
 
   s.subspec 'Targets' do |ss|
       ss.source_files = 'DJunCategoryKit/Classes/Targets/*.{h,m}'
-      #ss.dependency 'DJunCategoryKit/ViewController'
+      ss.dependency 'DJunCategoryKit/ViewController'
   end
   
   #s.resource = 'DJunCategoryKit/Classes/otherResource/*.png'
@@ -61,7 +57,7 @@ TODO: Add long description of the pod here.
     'DJunCategoryKit' => ['DJunCategoryKit/Assets/*.png']
   }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'CTMediator'
    s.dependency 'ReactiveObjC'
