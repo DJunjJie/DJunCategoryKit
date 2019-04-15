@@ -1,6 +1,6 @@
 {
   "name": "DJunCategoryKit",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "A short description of DJunCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/DJunJjie/DJunCategoryKit",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/DJunJjie/DJunCategoryKit.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DJunCategoryKit/Classes/**/*",
   "resource_bundles": {
     "DJunCategoryKit": [
       "DJunCategoryKit/Assets/*.png"
@@ -33,6 +32,10 @@
     ]
   },
   "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "DJunCategoryKit/Classes/Category/*.{h,m}"
+    },
     {
       "name": "ViewModel",
       "source_files": "DJunCategoryKit/Classes/ViewModel/*.{h,m}"

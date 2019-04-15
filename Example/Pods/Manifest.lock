@@ -1,25 +1,29 @@
 PODS:
   - CTMediator (25)
-  - DJunCategoryKit (0.3.0):
+  - DJunCategoryKit (0.4.0):
     - CTMediator
-    - DJunCategoryKit/Targets (= 0.3.0)
-    - DJunCategoryKit/View (= 0.3.0)
-    - DJunCategoryKit/ViewController (= 0.3.0)
-    - DJunCategoryKit/ViewModel (= 0.3.0)
+    - DJunCategoryKit/Category (= 0.4.0)
+    - DJunCategoryKit/Targets (= 0.4.0)
+    - DJunCategoryKit/View (= 0.4.0)
+    - DJunCategoryKit/ViewController (= 0.4.0)
+    - DJunCategoryKit/ViewModel (= 0.4.0)
     - ReactiveObjC
-  - DJunCategoryKit/Targets (0.3.0):
+  - DJunCategoryKit/Category (0.4.0):
+    - CTMediator
+    - ReactiveObjC
+  - DJunCategoryKit/Targets (0.4.0):
     - CTMediator
     - DJunCategoryKit/ViewController
     - ReactiveObjC
-  - DJunCategoryKit/View (0.3.0):
+  - DJunCategoryKit/View (0.4.0):
     - CTMediator
     - DJunCategoryKit/ViewModel
     - ReactiveObjC
-  - DJunCategoryKit/ViewController (0.3.0):
+  - DJunCategoryKit/ViewController (0.4.0):
     - CTMediator
     - DJunCategoryKit/View
     - ReactiveObjC
-  - DJunCategoryKit/ViewModel (0.3.0):
+  - DJunCategoryKit/ViewModel (0.4.0):
     - CTMediator
     - ReactiveObjC
   - ReactiveObjC (3.1.0)
@@ -38,7 +42,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  DJunCategoryKit: e68d8e2c52acdc7d677aa371770840eb4d84371d
+  DJunCategoryKit: 8d34056e41da9ec283b987c04d9fedd64c3c833f
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
 PODFILE CHECKSUM: 7ef3df56428ce0eea2bd0cfdcfbd1e8793497f60

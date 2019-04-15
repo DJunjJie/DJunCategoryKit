@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DJunCategoryKit'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of DJunCategoryKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DJunCategoryKit/Classes/**/*'
+  #s.source_files = 'DJunCategoryKit/Classes/**/*'
+  
+  s.subspec 'Category' do |ss|
+      ss.source_files = 'DJunCategoryKit/Classes/Category/*.{h,m}'
+  end
   
   s.subspec 'ViewModel' do |ss|
       ss.source_files = 'DJunCategoryKit/Classes/ViewModel/*.{h,m}'
@@ -41,12 +45,12 @@ TODO: Add long description of the pod here.
       ss.source_files = 'DJunCategoryKit/Classes/View/*.{h,m}'
       ss.dependency 'DJunCategoryKit/ViewModel'
   end
-
+  
   s.subspec 'ViewController' do |ss|
       ss.source_files = 'DJunCategoryKit/Classes/ViewController/*.{h,m}'
       ss.dependency 'DJunCategoryKit/View'
   end
-
+  
   s.subspec 'Targets' do |ss|
       ss.source_files = 'DJunCategoryKit/Classes/Targets/*.{h,m}'
       ss.dependency 'DJunCategoryKit/ViewController'

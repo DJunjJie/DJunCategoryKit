@@ -29,22 +29,6 @@
 #import "WLBaseViewModelProtocol.h"
 #import "WLBViewModelServiceImp.h"
 #import "WLBViewModelServiceImpProtocol.h"
-#import "Target_ModuleB.h"
-#import "WLBaseCollectionReusableView.h"
-#import "WLBaseCollectionView.h"
-#import "WLBaseCollectionViewCell.h"
-#import "WLBaseImageView.h"
-#import "WLBaseTableView.h"
-#import "WLBaseTableViewCell.h"
-#import "WLBaseTableViewHeaderFooterView.h"
-#import "WLBaseView.h"
-#import "WLBaseViewProtocol.h"
-#import "ModuleBViewController.h"
-#import "PageBViewController.h"
-#import "WLBaseViewModel.h"
-#import "WLBaseViewModelProtocol.h"
-#import "WLBViewModelServiceImp.h"
-#import "WLBViewModelServiceImpProtocol.h"
 
 FOUNDATION_EXPORT double DJunCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char DJunCategoryKitVersionString[];
