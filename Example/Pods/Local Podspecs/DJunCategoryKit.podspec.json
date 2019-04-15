@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DJunCategoryKit/Classes/**/*"
+  "source_files": "DJunCategoryKit/Classes/**/*",
+  "resource_bundles": {
+    "DJunCategoryKit": [
+      "DJunCategoryKit/Assets/*.png"
+    ]
+  }
 }

@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CD073F410B07569EF5B9052866A430C /* UIImage+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF071931D55357FAED1AC1CEBD2EE50 /* UIImage+MJ.m */; };
 		29938D9DFAE344EE6002836B1320E86E /* Pods-DJunCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C15CB2B04DD601F0813E1FC7E235644F /* Pods-DJunCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		368123C579EB0AEB1F21EF475ED9529F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		30A9F8FA26B32670A934292B6CEBA50B /* UIImage+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6356C9F4C53E36710E52B9C1E292E000 /* UIImage+MJ.m */; };
 		3872E61AF2580836337F893EB8ACF879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5744742F344249EC93E89ECE89E84761 /* UIImage+MJ.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B652260A9CC0074887559EE4453BEE /* UIImage+MJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411ACF6733FE6A6C3A3359E10AE10215 /* DJunCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EECCFC932DA3AC073F2F0851FC8B9BCD /* DJunCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FA466DCFA9D6553E59451F1767A3276 /* Pods-DJunCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA50C665093F3E3DB2F014FE5E6E612E /* Pods-DJunCategoryKit_Example-dummy.m */; };
-		817640D48C1DE2D82AB18ECDCA7F37C5 /* DJunCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBD33EC73716E0C0F82DC1BD79284 /* DJunCategoryKit-dummy.m */; };
+		63E83569F8B59B4EBE1DA24ECE8F4CFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		722038760BD44707CEEE24FBF8CF5BC2 /* UIImage+MJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A7B7A54F4EE295F6E721933E36B0FE /* UIImage+MJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84EC1EAF3E6AA7791648BE499131B478 /* Pods-DJunCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DDC8733CAA356020807DFEB3042D6E /* Pods-DJunCategoryKit_Tests-dummy.m */; };
-		98E0BDF798C450A1566474F2B8656BF7 /* DJunCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF9AC77928E774610588FEFE638BFE8 /* DJunCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0BCDCFA5690A28D37F35F6675FB89BB /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D65272DCC5BEF568C97BEFB62135E1 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A311BE44B82A2DBDE12B75E1DDD41093 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C43ACDED84D95DA20E038C1BB13F99 /* UIView+Extension.m */; };
+		93CB60E22D823D3F78A6A1E7091E89F8 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC34EA07545AA93787030871ADFE122 /* UIView+Extension.m */; };
+		AD93AB0FE077B7EFFD1DE51FA73754D3 /* icon_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 996233A5699BA1046FAFD09BA1D67BE0 /* icon_ios7@2x.png */; };
+		ADD6DE853A05A32B5D7B109E2129F061 /* DJunCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E28D869D57D093DCF4E99F861D766E /* DJunCategoryKit-dummy.m */; };
+		C16387071B5EF68D170354FDD1A7575E /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDC4645DAB5CE1CAC43C789354C6047 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0B60362FFB429CA11C4F3CB73D907B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		D8B4C8CB26227BA6D6F8B5B32276724A /* DJunCategoryKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B88AB53207C6AE3A6E6B8BBC4E10F7F7 /* DJunCategoryKit.bundle */; };
 		E094325CF358105DE65833B2057719C2 /* Pods-DJunCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475A0DA7E4D801F671E0469AC8BCDFA2 /* Pods-DJunCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,7 +29,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 56E0D9B8AC32444E657A4D4459ABEACB;
+			remoteGlobalIDString = FDB6B7866C1ABCEEA88F0FECBE49B464;
 			remoteInfo = DJunCategoryKit;
 		};
 		AFDED203256DC8D2932FE535EE8C6060 /* PBXContainerItemProxy */ = {
@@ -37,47 +39,57 @@
 			remoteGlobalIDString = 8B8D0FB0EA097AE51CCCD3C14D534CA8;
 			remoteInfo = "Pods-DJunCategoryKit_Example";
 		};
+		BED19B233004A93C6DC96790251B2B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC303037DA0B402FE01F41C7AB47943;
+			remoteInfo = "DJunCategoryKit-DJunCategoryKit";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0545207E57CE955F85EC124A16049FFA /* Pods-DJunCategoryKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJunCategoryKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		05A8685A455C6CCE855B43770FA3800A /* Pods-DJunCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJunCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0A5400D97A0AB071FC5BAE4A86F98D61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC34EA07545AA93787030871ADFE122 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "DJunCategoryKit/Classes/Category/UIView+Extension.m"; sourceTree = "<group>"; };
+		10A7B7A54F4EE295F6E721933E36B0FE /* UIImage+MJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MJ.h"; path = "DJunCategoryKit/Classes/Category/UIImage+MJ.h"; sourceTree = "<group>"; };
 		162063B9ABF7BF6C10E78ED5962619C6 /* Pods-DJunCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJunCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1E65EE056CC928B8465E35CA8A1B70E4 /* Pods-DJunCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DJunCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
-		1FF071931D55357FAED1AC1CEBD2EE50 /* UIImage+MJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MJ.m"; path = "DJunCategoryKit/Classes/Category/UIImage+MJ.m"; sourceTree = "<group>"; };
+		20646FFEF7615CDE2A19044D2FEE2BD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		24444D526BDFAB85822F008FEE121795 /* Pods-DJunCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJunCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		273DBD33EC73716E0C0F82DC1BD79284 /* DJunCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJunCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		31E28D869D57D093DCF4E99F861D766E /* DJunCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJunCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		3978A61C6D5BF18CA1ACE61DE32B6F2D /* Pods_DJunCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DJunCategoryKit_Tests.framework; path = "Pods-DJunCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFAA4F0882D2D5659B7D0024F30A2E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		475A0DA7E4D801F671E0469AC8BCDFA2 /* Pods-DJunCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJunCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		476BC2C0BBFD8D50217C4A1EBB2C7A84 /* Pods_DJunCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DJunCategoryKit_Example.framework; path = "Pods-DJunCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F7844BE1F131F9488D5D46BC71D7BC /* Pods-DJunCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJunCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		63D65272DCC5BEF568C97BEFB62135E1 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "DJunCategoryKit/Classes/Category/UIView+Extension.h"; sourceTree = "<group>"; };
-		71D0E749EB9FCEB545DC80716A525BC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553DA2A6FD17934B8DF89CF6EA044EFC /* DJunCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DJunCategoryKit.framework; path = DJunCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDC4645DAB5CE1CAC43C789354C6047 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "DJunCategoryKit/Classes/Category/UIView+Extension.h"; sourceTree = "<group>"; };
+		6356C9F4C53E36710E52B9C1E292E000 /* UIImage+MJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MJ.m"; path = "DJunCategoryKit/Classes/Category/UIImage+MJ.m"; sourceTree = "<group>"; };
+		72AE236932315106755898D4A6190254 /* DJunCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJunCategoryKit.xcconfig; sourceTree = "<group>"; };
 		73F72A70CE1583735BF52CA6D5E12713 /* Pods-DJunCategoryKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJunCategoryKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7A51858D3D6E44BA7AA972B406070E9B /* DJunCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DJunCategoryKit.framework; path = DJunCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		806BB746428C11F70D9FF69A07D2CC1D /* Pods-DJunCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJunCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		84FCEE8E09D2DC93F94B388C64371EC7 /* DJunCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJunCategoryKit.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98C43ACDED84D95DA20E038C1BB13F99 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "DJunCategoryKit/Classes/Category/UIView+Extension.m"; sourceTree = "<group>"; };
-		9968A8A6E3B52AF975D298D859D6F03A /* Pods_DJunCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DJunCategoryKit_Tests.framework; path = "Pods-DJunCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A646B0C3B400913B65F893AFE550ECF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		996233A5699BA1046FAFD09BA1D67BE0 /* icon_ios7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_ios7@2x.png"; path = "DJunCategoryKit/Assets/icon_ios7@2x.png"; sourceTree = "<group>"; };
+		9E771A3419E558FE2CCD77B9B5C4B1BE /* ResourceBundle-DJunCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DJunCategoryKit-Info.plist"; sourceTree = "<group>"; };
 		A748C88D438EBDDABD46EBC07BC296BA /* Pods-DJunCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJunCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AE039D3A710ECF9066EF96705015D58D /* DJunCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJunCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		B4D7782AC2C8BD808834962495C0F7B8 /* Pods-DJunCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJunCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B88AB53207C6AE3A6E6B8BBC4E10F7F7 /* DJunCategoryKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DJunCategoryKit.bundle; path = "DJunCategoryKit-DJunCategoryKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7465F6601D2341D3D9F70E39832C65 /* Pods-DJunCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJunCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BDF46EAAE3A1B3A137B68C74CBAA0275 /* Pods_DJunCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DJunCategoryKit_Example.framework; path = "Pods-DJunCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10202A0E66292440615F14D55ACCA88 /* DJunCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJunCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		C15CB2B04DD601F0813E1FC7E235644F /* Pods-DJunCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJunCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		C347153747E12603814C2D985CD89111 /* Pods-DJunCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJunCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC52FCEC7AD0F55CABB3F9E50A061856 /* DJunCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DJunCategoryKit.modulemap; sourceTree = "<group>"; };
 		D5D07DF79BDB42E2359FEF65EFEBA3A0 /* Pods-DJunCategoryKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJunCategoryKit_Example-resources.sh"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA50C665093F3E3DB2F014FE5E6E612E /* Pods-DJunCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJunCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		DAF9AC77928E774610588FEFE638BFE8 /* DJunCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJunCategoryKit-umbrella.h"; sourceTree = "<group>"; };
-		E60123DEBDBDCB40928AD139F05BCD62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E8B652260A9CC0074887559EE4453BEE /* UIImage+MJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MJ.h"; path = "DJunCategoryKit/Classes/Category/UIImage+MJ.h"; sourceTree = "<group>"; };
-		F390D7445A999B5E9D4B4141D16498DD /* DJunCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DJunCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E733FDC3C8CFAA220DA22EABC54CB176 /* DJunCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DJunCategoryKit.modulemap; sourceTree = "<group>"; };
+		EECCFC932DA3AC073F2F0851FC8B9BCD /* DJunCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJunCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		F6C85997CE1C7A7F4984288204ADEA88 /* Pods-DJunCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DJunCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
 		F9DDC8733CAA356020807DFEB3042D6E /* Pods-DJunCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJunCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		FBA5F68FC2D2DD430FC38D7050CBC0BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FCAAF2B1A8E7D5B12230BF32AE8CBB29 /* DJunCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DJunCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FEFFEF6E3ECBDAD3E05FA792558113A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,17 +109,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDA50D1AEC5AD03DB18A67EFBBE18AF1 /* Frameworks */ = {
+		9035CA166688DBF12D58B51639372B16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368123C579EB0AEB1F21EF475ED9529F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE7A3B858E8A7540A6231206938D7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E83569F8B59B4EBE1DA24ECE8F4CFF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D81D43E4FD19ABF49703347D5BDE508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88AB53207C6AE3A6E6B8BBC4E10F7F7 /* DJunCategoryKit.bundle */,
+				553DA2A6FD17934B8DF89CF6EA044EFC /* DJunCategoryKit.framework */,
+				476BC2C0BBFD8D50217C4A1EBB2C7A84 /* Pods_DJunCategoryKit_Example.framework */,
+				3978A61C6D5BF18CA1ACE61DE32B6F2D /* Pods_DJunCategoryKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2BBE2BE4F857966ED48586EC652E75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				996233A5699BA1046FAFD09BA1D67BE0 /* icon_ios7@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3ED1BCF87A6CB7E69AA999FD21CFEF6C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FCAAF2B1A8E7D5B12230BF32AE8CBB29 /* DJunCategoryKit.podspec */,
+				FBA5F68FC2D2DD430FC38D7050CBC0BF /* LICENSE */,
+				20646FFEF7615CDE2A19044D2FEE2BD9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,40 +164,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		56E9EFA6199587509B4C244E4F5404BE /* DJunCategoryKit */ = {
+		5273DC06EBC6BD86508BD664A6EFFFB9 /* DJunCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				E8B652260A9CC0074887559EE4453BEE /* UIImage+MJ.h */,
-				1FF071931D55357FAED1AC1CEBD2EE50 /* UIImage+MJ.m */,
-				63D65272DCC5BEF568C97BEFB62135E1 /* UIView+Extension.h */,
-				98C43ACDED84D95DA20E038C1BB13F99 /* UIView+Extension.m */,
-				98DBF98C329E233BAE0D62F7E4B8D906 /* Pod */,
-				6561ED464F1618E78F14C1B0A5DB8ABF /* Support Files */,
+				10A7B7A54F4EE295F6E721933E36B0FE /* UIImage+MJ.h */,
+				6356C9F4C53E36710E52B9C1E292E000 /* UIImage+MJ.m */,
+				5BDC4645DAB5CE1CAC43C789354C6047 /* UIView+Extension.h */,
+				0FC34EA07545AA93787030871ADFE122 /* UIView+Extension.m */,
+				3ED1BCF87A6CB7E69AA999FD21CFEF6C /* Pod */,
+				3C2BBE2BE4F857966ED48586EC652E75 /* Resources */,
+				D8427C535A1CBAC5CC966128BBB2CCFF /* Support Files */,
 			);
 			name = DJunCategoryKit;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		5A46C07D976F338F911EA84F7739EC34 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				56E9EFA6199587509B4C244E4F5404BE /* DJunCategoryKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6561ED464F1618E78F14C1B0A5DB8ABF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC52FCEC7AD0F55CABB3F9E50A061856 /* DJunCategoryKit.modulemap */,
-				84FCEE8E09D2DC93F94B388C64371EC7 /* DJunCategoryKit.xcconfig */,
-				273DBD33EC73716E0C0F82DC1BD79284 /* DJunCategoryKit-dummy.m */,
-				AE039D3A710ECF9066EF96705015D58D /* DJunCategoryKit-prefix.pch */,
-				DAF9AC77928E774610588FEFE638BFE8 /* DJunCategoryKit-umbrella.h */,
-				71D0E749EB9FCEB545DC80716A525BC5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DJunCategoryKit";
 			sourceTree = "<group>";
 		};
 		6BB31108A7BC7A79D2B65A685327AF4A /* Pods-DJunCategoryKit_Example */ = {
@@ -174,31 +201,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5A46C07D976F338F911EA84F7739EC34 /* Development Pods */,
+				C7BE0C2ABC38625FD9922DD2BB02B8E5 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9559C06B8AE0385878ECF5C6E1457300 /* Products */,
+				1D81D43E4FD19ABF49703347D5BDE508 /* Products */,
 				D5F606C660DC7FADA07C44F41D2CFF7C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9559C06B8AE0385878ECF5C6E1457300 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7A51858D3D6E44BA7AA972B406070E9B /* DJunCategoryKit.framework */,
-				BDF46EAAE3A1B3A137B68C74CBAA0275 /* Pods_DJunCategoryKit_Example.framework */,
-				9968A8A6E3B52AF975D298D859D6F03A /* Pods_DJunCategoryKit_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		98DBF98C329E233BAE0D62F7E4B8D906 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F390D7445A999B5E9D4B4141D16498DD /* DJunCategoryKit.podspec */,
-				A646B0C3B400913B65F893AFE550ECF7 /* LICENSE */,
-				E60123DEBDBDCB40928AD139F05BCD62 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -209,6 +216,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C7BE0C2ABC38625FD9922DD2BB02B8E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5273DC06EBC6BD86508BD664A6EFFFB9 /* DJunCategoryKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		D5F606C660DC7FADA07C44F41D2CFF7C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +231,21 @@
 				F9D4FD403C684471B134977BE86C0B26 /* Pods-DJunCategoryKit_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D8427C535A1CBAC5CC966128BBB2CCFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E733FDC3C8CFAA220DA22EABC54CB176 /* DJunCategoryKit.modulemap */,
+				72AE236932315106755898D4A6190254 /* DJunCategoryKit.xcconfig */,
+				31E28D869D57D093DCF4E99F861D766E /* DJunCategoryKit-dummy.m */,
+				C10202A0E66292440615F14D55ACCA88 /* DJunCategoryKit-prefix.pch */,
+				EECCFC932DA3AC073F2F0851FC8B9BCD /* DJunCategoryKit-umbrella.h */,
+				FEFFEF6E3ECBDAD3E05FA792558113A0 /* Info.plist */,
+				9E771A3419E558FE2CCD77B9B5C4B1BE /* ResourceBundle-DJunCategoryKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DJunCategoryKit";
 			sourceTree = "<group>";
 		};
 		F9D4FD403C684471B134977BE86C0B26 /* Pods-DJunCategoryKit_Tests */ = {
@@ -247,13 +277,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A8C6CFAB583B9AD7970612A78937067 /* Headers */ = {
+		A8A37094C8FD98ECDF02486185DE5C57 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E0BDF798C450A1566474F2B8656BF7 /* DJunCategoryKit-umbrella.h in Headers */,
-				5744742F344249EC93E89ECE89E84761 /* UIImage+MJ.h in Headers */,
-				A0BCDCFA5690A28D37F35F6675FB89BB /* UIView+Extension.h in Headers */,
+				411ACF6733FE6A6C3A3359E10AE10215 /* DJunCategoryKit-umbrella.h in Headers */,
+				722038760BD44707CEEE24FBF8CF5BC2 /* UIImage+MJ.h in Headers */,
+				C16387071B5EF68D170354FDD1A7575E /* UIView+Extension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,24 +298,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		56E0D9B8AC32444E657A4D4459ABEACB /* DJunCategoryKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45B67EFBA2B1E6E93FD58232A2A6AB46 /* Build configuration list for PBXNativeTarget "DJunCategoryKit" */;
-			buildPhases = (
-				5A8C6CFAB583B9AD7970612A78937067 /* Headers */,
-				DBC7895A6D0C885EE3A7B66F7ADAB3BB /* Sources */,
-				CDA50D1AEC5AD03DB18A67EFBBE18AF1 /* Frameworks */,
-				F051F71D3D2C157F2188F9AEDC787152 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DJunCategoryKit;
-			productName = DJunCategoryKit;
-			productReference = 7A51858D3D6E44BA7AA972B406070E9B /* DJunCategoryKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7CF1F3A112EDA833BD9D8DA5E28A398A /* Pods-DJunCategoryKit_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 855A32637321DA1AE452EF5F827D3193 /* Build configuration list for PBXNativeTarget "Pods-DJunCategoryKit_Tests" */;
@@ -302,7 +314,7 @@
 			);
 			name = "Pods-DJunCategoryKit_Tests";
 			productName = "Pods-DJunCategoryKit_Tests";
-			productReference = 9968A8A6E3B52AF975D298D859D6F03A /* Pods_DJunCategoryKit_Tests.framework */;
+			productReference = 3978A61C6D5BF18CA1ACE61DE32B6F2D /* Pods_DJunCategoryKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B8D0FB0EA097AE51CCCD3C14D534CA8 /* Pods-DJunCategoryKit_Example */ = {
@@ -321,7 +333,43 @@
 			);
 			name = "Pods-DJunCategoryKit_Example";
 			productName = "Pods-DJunCategoryKit_Example";
-			productReference = BDF46EAAE3A1B3A137B68C74CBAA0275 /* Pods_DJunCategoryKit_Example.framework */;
+			productReference = 476BC2C0BBFD8D50217C4A1EBB2C7A84 /* Pods_DJunCategoryKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAC303037DA0B402FE01F41C7AB47943 /* DJunCategoryKit-DJunCategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B7CA3E5DE6B8078CD088DED59ED51C /* Build configuration list for PBXNativeTarget "DJunCategoryKit-DJunCategoryKit" */;
+			buildPhases = (
+				83D0FA8434C86E22E2DCF299DAB94B27 /* Sources */,
+				9035CA166688DBF12D58B51639372B16 /* Frameworks */,
+				99A89EEDD915D89A941A5999E160FF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DJunCategoryKit-DJunCategoryKit";
+			productName = "DJunCategoryKit-DJunCategoryKit";
+			productReference = B88AB53207C6AE3A6E6B8BBC4E10F7F7 /* DJunCategoryKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FDB6B7866C1ABCEEA88F0FECBE49B464 /* DJunCategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371936E2C6882AF5EC92529DC4B15C86 /* Build configuration list for PBXNativeTarget "DJunCategoryKit" */;
+			buildPhases = (
+				A8A37094C8FD98ECDF02486185DE5C57 /* Headers */,
+				1EDB3FADC96B3427EE9E0B4564C3D202 /* Sources */,
+				CDE7A3B858E8A7540A6231206938D7E9 /* Frameworks */,
+				912C9015937C926D74736AD6BAD77596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E8BDFECD36B53B90E71E4CDACFC79B0 /* PBXTargetDependency */,
+			);
+			name = DJunCategoryKit;
+			productName = DJunCategoryKit;
+			productReference = 553DA2A6FD17934B8DF89CF6EA044EFC /* DJunCategoryKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -341,11 +389,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9559C06B8AE0385878ECF5C6E1457300 /* Products */;
+			productRefGroup = 1D81D43E4FD19ABF49703347D5BDE508 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56E0D9B8AC32444E657A4D4459ABEACB /* DJunCategoryKit */,
+				FDB6B7866C1ABCEEA88F0FECBE49B464 /* DJunCategoryKit */,
+				EAC303037DA0B402FE01F41C7AB47943 /* DJunCategoryKit-DJunCategoryKit */,
 				8B8D0FB0EA097AE51CCCD3C14D534CA8 /* Pods-DJunCategoryKit_Example */,
 				7CF1F3A112EDA833BD9D8DA5E28A398A /* Pods-DJunCategoryKit_Tests */,
 			);
@@ -367,21 +416,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F051F71D3D2C157F2188F9AEDC787152 /* Resources */ = {
+		912C9015937C926D74736AD6BAD77596 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B4C8CB26227BA6D6F8B5B32276724A /* DJunCategoryKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A89EEDD915D89A941A5999E160FF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD93AB0FE077B7EFFD1DE51FA73754D3 /* icon_ios7@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1EDB3FADC96B3427EE9E0B4564C3D202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD6DE853A05A32B5D7B109E2129F061 /* DJunCategoryKit-dummy.m in Sources */,
+				30A9F8FA26B32670A934292B6CEBA50B /* UIImage+MJ.m in Sources */,
+				93CB60E22D823D3F78A6A1E7091E89F8 /* UIView+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76A2EB68DAE26EB55D8344E17BE7695B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84EC1EAF3E6AA7791648BE499131B478 /* Pods-DJunCategoryKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D0FA8434C86E22E2DCF299DAB94B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,19 +468,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBC7895A6D0C885EE3A7B66F7ADAB3BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				817640D48C1DE2D82AB18ECDCA7F37C5 /* DJunCategoryKit-dummy.m in Sources */,
-				1CD073F410B07569EF5B9052866A430C /* UIImage+MJ.m in Sources */,
-				A311BE44B82A2DBDE12B75E1DDD41093 /* UIView+Extension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2E8BDFECD36B53B90E71E4CDACFC79B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DJunCategoryKit-DJunCategoryKit";
+			target = EAC303037DA0B402FE01F41C7AB47943 /* DJunCategoryKit-DJunCategoryKit */;
+			targetProxy = BED19B233004A93C6DC96790251B2B78 /* PBXContainerItemProxy */;
+		};
 		5357427C9430DFBFD5A1F31B8A1EFCAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DJunCategoryKit_Example";
@@ -415,7 +486,7 @@
 		E8B4021E314A2093AD1DD698EA7AD957 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DJunCategoryKit;
-			target = 56E0D9B8AC32444E657A4D4459ABEACB /* DJunCategoryKit */;
+			target = FDB6B7866C1ABCEEA88F0FECBE49B464 /* DJunCategoryKit */;
 			targetProxy = 26AC417F3CB73ACDFEF96CCD3C2E4620 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,6 +525,37 @@
 			};
 			name = Debug;
 		};
+		2CBB4DC91F0B0E9AC75D6544DCA65595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AE236932315106755898D4A6190254 /* DJunCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DJunCategoryKit/DJunCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJunCategoryKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJunCategoryKit/DJunCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = DJunCategoryKit;
+				PRODUCT_NAME = DJunCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		435D35986952CBF146C71EAFF6494611 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 162063B9ABF7BF6C10E78ED5962619C6 /* Pods-DJunCategoryKit_Example.release.xcconfig */;
@@ -485,6 +587,22 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C1E2FE2503424D5EE0734AB6B82908F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AE236932315106755898D4A6190254 /* DJunCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DJunCategoryKit";
+				INFOPLIST_FILE = "Target Support Files/DJunCategoryKit/ResourceBundle-DJunCategoryKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DJunCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -683,40 +801,25 @@
 			};
 			name = Debug;
 		};
-		DCF1E6D0B8915BD1E70762B8E2168B64 /* Release */ = {
+		C6736E41CD92A0FF49B5F7412C1DB7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84FCEE8E09D2DC93F94B388C64371EC7 /* DJunCategoryKit.xcconfig */;
+			baseConfigurationReference = 72AE236932315106755898D4A6190254 /* DJunCategoryKit.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DJunCategoryKit/DJunCategoryKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DJunCategoryKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DJunCategoryKit";
+				INFOPLIST_FILE = "Target Support Files/DJunCategoryKit/ResourceBundle-DJunCategoryKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DJunCategoryKit/DJunCategoryKit.modulemap";
-				PRODUCT_MODULE_NAME = DJunCategoryKit;
 				PRODUCT_NAME = DJunCategoryKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		EBD5730E8FC357E9D7F73A2161749EDC /* Debug */ = {
+		F666CBAD44675A0EE9D520AEB7FC96EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84FCEE8E09D2DC93F94B388C64371EC7 /* DJunCategoryKit.xcconfig */;
+			baseConfigurationReference = 72AE236932315106755898D4A6190254 /* DJunCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -747,6 +850,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02B7CA3E5DE6B8078CD088DED59ED51C /* Build configuration list for PBXNativeTarget "DJunCategoryKit-DJunCategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6736E41CD92A0FF49B5F7412C1DB7D5 /* Debug */,
+				4C1E2FE2503424D5EE0734AB6B82908F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -756,11 +868,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45B67EFBA2B1E6E93FD58232A2A6AB46 /* Build configuration list for PBXNativeTarget "DJunCategoryKit" */ = {
+		371936E2C6882AF5EC92529DC4B15C86 /* Build configuration list for PBXNativeTarget "DJunCategoryKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBD5730E8FC357E9D7F73A2161749EDC /* Debug */,
-				DCF1E6D0B8915BD1E70762B8E2168B64 /* Release */,
+				F666CBAD44675A0EE9D520AEB7FC96EB /* Debug */,
+				2CBB4DC91F0B0E9AC75D6544DCA65595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
