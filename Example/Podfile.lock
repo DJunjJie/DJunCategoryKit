@@ -1,0 +1,16 @@
+PODS:
+  - DJunCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - DJunCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  DJunCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DJunCategoryKit: b75c06f493817be9176d113628abdaefff1b197a
+
+PODFILE CHECKSUM: 7ef3df56428ce0eea2bd0cfdcfbd1e8793497f60
+
+COCOAPODS: 1.5.3

@@ -7,6 +7,8 @@
 //
 
 #import "DJunViewController.h"
+#import "UIImage+MJ.h"
+#import "UIView+Extension.h"
 
 @interface DJunViewController ()
 

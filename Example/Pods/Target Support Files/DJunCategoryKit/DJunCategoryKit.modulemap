@@ -1,0 +1,6 @@
+framework module DJunCategoryKit {
+  umbrella header "DJunCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

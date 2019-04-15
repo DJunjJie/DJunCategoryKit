@@ -1,0 +1,22 @@
+{
+  "name": "DJunCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of DJunCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DJunJjie/DJunCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DJunJjie": "1099718412@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/DJunJjie/DJunCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DJunCategoryKit/Classes/**/*"
+}
