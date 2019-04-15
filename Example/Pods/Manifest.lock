@@ -1,15 +1,46 @@
 PODS:
-  - DJunCategoryKit (0.1.0)
+  - CTMediator (25)
+  - DJunCategoryKit (0.2.0):
+    - CTMediator
+    - DJunCategoryKit/Api (= 0.2.0)
+    - DJunCategoryKit/Targets (= 0.2.0)
+    - DJunCategoryKit/View (= 0.2.0)
+    - DJunCategoryKit/ViewController (= 0.2.0)
+    - DJunCategoryKit/ViewModel (= 0.2.0)
+    - ReactiveObjC
+  - DJunCategoryKit/Api (0.2.0):
+    - CTMediator
+    - ReactiveObjC
+  - DJunCategoryKit/Targets (0.2.0):
+    - CTMediator
+    - ReactiveObjC
+  - DJunCategoryKit/View (0.2.0):
+    - CTMediator
+    - ReactiveObjC
+  - DJunCategoryKit/ViewController (0.2.0):
+    - CTMediator
+    - ReactiveObjC
+  - DJunCategoryKit/ViewModel (0.2.0):
+    - CTMediator
+    - ReactiveObjC
+  - ReactiveObjC (3.1.0)
 
 DEPENDENCIES:
   - DJunCategoryKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   DJunCategoryKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DJunCategoryKit: f6e47c805aded131fda4b9a5e1aa34077d9d3025
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  DJunCategoryKit: ac5f5493205361d7a217c706f8bc47f04a1d9d93
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
 PODFILE CHECKSUM: 7ef3df56428ce0eea2bd0cfdcfbd1e8793497f60
 

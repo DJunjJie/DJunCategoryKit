@@ -32,11 +32,37 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'DJunCategoryKit/Classes/**/*'
   
+  s.subspec 'Api' do |ss|
+      ss.source_files = 'DJunCategoryKit/Classes/Api/*.{h,m}'
+  end
+  s.subspec 'ViewModel' do |ss|
+      ss.source_files = 'DJunCategoryKit/Classes/ViewModel/*.{h,m}'
+      ss.dependency 'ReactiveObjC'
+  end
+  
+  s.subspec 'View' do |ss|
+      ss.source_files = 'DJunCategoryKit/Classes/View/*.{h,m}'
+      # ss.dependency 'DJunCategoryKit/Api'
+      # ss.dependency 'DJunCategoryKit/ViewModel'
+  end
+
+  s.subspec 'ViewController' do |ss|
+      ss.source_files = 'DJunCategoryKit/Classes/ViewController/*.{h,m}'
+      #ss.dependency 'DJunCategoryKit/View'
+  end
+
+  s.subspec 'Targets' do |ss|
+      ss.source_files = 'DJunCategoryKit/Classes/Targets/*.{h,m}'
+      #ss.dependency 'DJunCategoryKit/ViewController'
+  end
+  
+  #s.resource = 'DJunCategoryKit/Classes/otherResource/*.png'
   s.resource_bundles = {
-     'DJunCategoryKit' => ['DJunCategoryKit/Assets/*.png']
+    'DJunCategoryKit' => ['DJunCategoryKit/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'CTMediator'
+   s.dependency 'ReactiveObjC'
 end

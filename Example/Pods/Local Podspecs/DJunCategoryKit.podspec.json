@@ -1,6 +1,6 @@
 {
   "name": "DJunCategoryKit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A short description of DJunCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/DJunJjie/DJunCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/DJunJjie/DJunCategoryKit.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,5 +23,41 @@
     "DJunCategoryKit": [
       "DJunCategoryKit/Assets/*.png"
     ]
-  }
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "CTMediator": [
+
+    ],
+    "ReactiveObjC": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Api",
+      "source_files": "DJunCategoryKit/Classes/Api/*.{h,m}"
+    },
+    {
+      "name": "ViewModel",
+      "source_files": "DJunCategoryKit/Classes/ViewModel/*.{h,m}",
+      "dependencies": {
+        "ReactiveObjC": [
+
+        ]
+      }
+    },
+    {
+      "name": "View",
+      "source_files": "DJunCategoryKit/Classes/View/*.{h,m}"
+    },
+    {
+      "name": "ViewController",
+      "source_files": "DJunCategoryKit/Classes/ViewController/*.{h,m}"
+    },
+    {
+      "name": "Targets",
+      "source_files": "DJunCategoryKit/Classes/Targets/*.{h,m}"
+    }
+  ]
 }
